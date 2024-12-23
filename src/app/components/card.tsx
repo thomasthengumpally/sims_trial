@@ -1,5 +1,12 @@
 import React from "react";
 
+/* To use card component, import it in your page and pass the icon and text content as props
+    <Card
+    icon={<FaBook className="text-white w-6 h-6" />} // Icon
+    text="Reports"                                    // Text content
+    />
+*/
+
 interface CardProps {
   icon: React.ReactNode; // Icon to be displayed
   text: string;          // Text content for the card
