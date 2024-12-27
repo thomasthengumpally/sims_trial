@@ -14,7 +14,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ icon, text }) => {
   return (
-    <div className="flex items-center bg-white shadow-md rounded-lg p-4 w-[400px] h-[100px]">
+    <div className="flex items-center bg-white shadow-lg rounded-lg p-4 w-[400px] h-[100px]">
       {/* Icon Section */}
       <div className="flex items-center justify-center bg-yellow-400 rounded-full w-12 h-12 mr-4">
         {icon}
